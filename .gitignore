@@ -1,3 +1,9 @@
 .idea
+<<<<<<< HEAD
 out/*
 *.iml
+=======
+*.iml
+/out
+
+>>>>>>> a8822a5... Modify .gitignore
