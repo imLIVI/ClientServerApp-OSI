@@ -5,7 +5,7 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class ServerThread extends Thread{
+public class ServerThread extends Thread {
     @Override
     public void run() {
         int port = 8080;
@@ -21,7 +21,6 @@ public class ServerThread extends Thread{
                 final String name = in.readLine();
                 out.println(String.format("Hi %s, your port is %d", name, clientSocket.getPort()));
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }

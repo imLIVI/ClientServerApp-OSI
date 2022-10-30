@@ -11,7 +11,5 @@ public class Main {
         server.start();
         ClientThread client = new ClientThread();
         client.start();
-
-
     }
 }
