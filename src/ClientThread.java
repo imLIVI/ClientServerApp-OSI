@@ -7,7 +7,7 @@ import java.net.Socket;
 public class ClientThread extends Thread {
     @Override
     public void run() {
-        String host = "127.0.0.1";
+        String host = "localhost";
         int port = 8080;
 
         try (Socket clientSocket = new Socket(host, port);
